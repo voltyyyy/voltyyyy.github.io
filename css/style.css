@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #ff0073;
+  background-color: #ff0073a9;
   text-align: left;
 /*  min-width: 500px; */
 }
@@ -46,7 +46,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ff0073;
+  color: #ff0073a9;
   padding: 8px 0px 10px 8px;
 }
 
@@ -87,7 +87,7 @@ font-family: 'Work Sans';
 }
 
 .myButton:hover {
-    background-color:#ff0073;
+    background-color:#ff0073a9;
 }
 
 .myButton:active {
