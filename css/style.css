@@ -8,7 +8,9 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #ff0073a9;
+  background: #642B73;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: left;
 /*  min-width: 500px; */
 }
@@ -24,9 +26,9 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
   grid-gap: 20px;
-  margin-top: 44px;
+  margin: 44px 40px
 
-  justify-items: center;
+  justify-items center;
   justify-content: center;
   align-items: stretch;
   align-content: center;
@@ -46,7 +48,9 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ff0073a9;
+  background: #642B73;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 8px 0px 10px 8px;
 }
 
@@ -87,7 +91,10 @@ font-family: 'Work Sans';
 }
 
 .myButton:hover {
-    background-color:#ff0073a9;
+  background: #642B73;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .myButton:active {
@@ -158,9 +165,13 @@ font-family: 'Work Sans';
 @media all and (max-width:700px) {
   main {
     grid-template-columns: 1fr;
+    margin: 44px auto;
   }
   .description {
     font-size: 18px;
+  }
+  img {
+    height: 25vh;
   }
 }
 
