@@ -142,10 +142,11 @@ font-family: 'Work Sans';
 }
 
 .badge {
-  justify-items: center;
-  justify-content: center;
-  align-items: stretch;
-  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .logo {
