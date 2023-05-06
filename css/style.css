@@ -24,6 +24,10 @@ header {
   display: flex;
 }
 
+header, p {
+  color: #ffffff;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
@@ -36,6 +40,7 @@ main {
 }
 
 h1 {
+  color: #ffffff;
   font-family: Poppins;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
