@@ -166,8 +166,8 @@ font-family: 'Work Sans';
     display: flex;
     align-content: center;
     padding: 10px 20px;
-    color: rgba(255, 255, 255, 0.5);
-    justify-content: space between;
+    color: rgba(255, 255, 255, 0.8);
+    justify-content: space-between;
   }
 
   
@@ -182,7 +182,7 @@ font-family: 'Work Sans';
 
 .icons a {
   margin: 0 8px;
-  color: rgb(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255, 0.8);
 }
 
 .icons a:hover {
